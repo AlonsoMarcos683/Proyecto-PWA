@@ -19,3 +19,15 @@ body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-u
 .splash { height: 60vh; display: grid; place-content: center; text-align: center; gap: 12px; }
 .splash-logo { font-size: 48px; line-height: 1; animation: pop 900ms ease; }
 @keyframes pop { from { transform: scale(0.9); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+
+input, textarea, button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(255,255,255,0.08);
+  color: #eaf2ff;
+  border: 1px solid #2a3348;
+  border-radius: 10px;
+}
+
+button { cursor: pointer; font-weight: 600; }
